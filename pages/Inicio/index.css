@@ -1,0 +1,60 @@
+span {
+  font-family: 'Creepster', cursiva;
+  color: red;
+  display: block;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 6.25rem;
+  letter-spacing: 3px;
+}
+
+body {
+  background-image: url(img/inicio.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.button a {
+  text-decoration: none;
+  padding: 0;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%)}
+.btn-grad {
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 10px;
+   display: block;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 2rem;
+   border: none;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+   transform: scale(1.1);
+   border: #e52d27 solid 2px;
+ }
+
+ @media(max-width:550px) {
+  html {
+    font-size: 8px;
+  }
+ }

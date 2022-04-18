@@ -5,12 +5,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  padding-bottom: 30px;
 }
 
 body {
   width: 100%;
-  height: 100vh;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -33,8 +31,9 @@ header {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  margin: 40px 30px 30px 10px;
+  /* margin: 40px 30px 30px 10px; */
   flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 
 .button-interrogacao a {

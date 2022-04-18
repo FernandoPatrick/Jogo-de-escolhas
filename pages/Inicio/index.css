@@ -11,7 +11,7 @@ span {
 body {
   background-image: url(img/inicio.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 90%;
   background-position: center;
   padding: 40px;
 }
@@ -21,11 +21,11 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 150px;
+  padding: 20px;
 }
 
 .button a {
   text-decoration: none;
-  padding: 0;
 }
 
 

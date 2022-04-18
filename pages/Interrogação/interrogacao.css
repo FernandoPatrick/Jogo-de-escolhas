@@ -36,6 +36,8 @@
 
 .suspeito a img {
   width: 200px;
+  border-radius: 10px;
+
 }
 
 .suspeito:hover {

@@ -10,6 +10,7 @@
 body {
   width: 100%;
   font-family: 'Poppins', sans-serif;
+  padding-bottom: 40px;
 }
 
 header {
@@ -31,19 +32,16 @@ header {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  /* margin: 40px 30px 30px 10px; */
   flex-wrap: wrap;
-  margin-bottom: 50px;
 }
 
 .button-interrogacao a {
   text-decoration: none;
-  padding: 0;
-  margin: 0;
+  content: initial;
 }
 
 
-.btn-grad {background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%)}
+.btn-grad {background-image: linear-gradient(to right, #e52d27 0%, #961014  51%, #e52d27  100%)}
 .btn-grad {
    padding: 10px 20px;
    text-align: center;
@@ -65,7 +63,7 @@ header {
    color: #fff;
    text-decoration: none;
    transform: scale(1.05);
-   border: #e52d27 solid 2px;
+   /* border: #e52d27 solid 2px; */
  }
 
  .container {

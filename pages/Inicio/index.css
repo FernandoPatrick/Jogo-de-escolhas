@@ -11,9 +11,10 @@ span {
 body {
   background-image: url(img/inicio.png);
   background-repeat: no-repeat;
-  background-size: 90%;
+  background-size: cover;
   background-position: center;
   padding: 40px;
+  height: 100vh;
 }
 
 .button {
@@ -29,7 +30,7 @@ body {
 }
 
 
-.btn-grad {background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%)}
+.btn-grad {background-image: linear-gradient(to right, #e52d27 0%, #8f0f13  51%, #e52d27  100%)}
 .btn-grad {
    padding: 15px 45px;
    text-align: center;
@@ -50,7 +51,7 @@ body {
    color: #fff;
    text-decoration: none;
    transform: scale(1.1);
-   border: #e52d27 solid 2px;
+   /* border: #e52d27 solid 2px; */
  }
 
  @media(max-width:550px) {

@@ -1,11 +1,5 @@
 var img = document.querySelector("#imgwinner")
 
-
-
-
-
- 
-
 function comemorar() { 
 
   if(img.getAttribute('src') == './img/IMG1.png'){

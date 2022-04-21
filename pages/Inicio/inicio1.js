@@ -7,7 +7,7 @@ $('html').fadeIn(1000)
 setTimeout(function() {
   var nome = prompt('"Identifique-se detetive!"')
   while (true) {
-    if(nome != ''){
+    if(nome != '' || nome.length() <= 1 ){
     alert(`Muito bem Detetive ${nome}, vamos ao caso:`)
     break;
   }

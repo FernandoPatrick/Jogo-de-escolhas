@@ -1,0 +1,18 @@
+.container {
+  padding-top: 20px; 
+  margin-top: 0px;
+  max-width: 550px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.span-header img {
+  height: 50px; 
+  width: 25rem;
+}
+
+

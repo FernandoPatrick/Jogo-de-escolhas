@@ -24,7 +24,7 @@ function thiago(){
    alert('Selecione o suspeito')
  }else {
    alert('Valor inserido inválido')
-   margareth()
+   thiago()
  }
 }
 
@@ -38,7 +38,7 @@ function ramon(){
    alert('Selecione o suspeito')
  }else {
    alert('Valor inserido inválido')
-   margareth()
+   ramon()
  }
 }
 
@@ -52,7 +52,7 @@ function MT(){
    alert('Selecione o suspeito')
  }else {
    alert('Valor inserido inválido')
-   margareth()
+   MT()
  }
 }
 
@@ -66,7 +66,7 @@ function RM(){
    alert('Selecione o suspeito')
  }else {
    alert('Valor inserido inválido')
-   margareth()
+   RM()
  }
 }
 
@@ -80,35 +80,35 @@ function RT(){
    alert('Selecione o suspeito')
  }else {
    alert('Valor inserido inválido')
-   margareth()
+   RT()
  }
 }
 
 function RMT(){
   let decidir = prompt('Tem certeza que deseja prender Ramon, Margareth e Thiago?')
   if(decidir.toLocaleLowerCase() == 'sim') {
-    window.location.assign('../youlose/youlose.html')
+    window.location.assign('../winner/winner.html')
     // window.close() 
  
  }else if(decidir.toLocaleLowerCase() == 'nao' || decidir.toLocaleLowerCase() == 'não'){
    alert('Selecione o suspeito')
  }else {
    alert('Valor inserido inválido')
-   margareth()
+   RMT()
  }
 }
 
-function music(){
+// function music(){
 
-  let music = document.createElement("audio");
-  music.setAttribute("controls", "");
-  music.setAttribute("id", "music");
-  music.setAttribute("src", "./music/tense_music.mp3");
-  music.setAttribute("loop", "true");
-  music.setAttribute("autoplay", "true")
-  //music.setAttribute("hidden", "false");
-  let divMusic = document.getElementById("divMusic")
-  divMusic.appendChild(music);
-}
+//   let music = document.createElement("audio");
+//   music.setAttribute("controls", "");
+//   music.setAttribute("id", "music");
+//   music.setAttribute("src", "./music/tense_music.mp3");
+//   music.setAttribute("loop", "true");
+//   music.setAttribute("autoplay", "true")
+//   //music.setAttribute("hidden", "false");
+//   let divMusic = document.getElementById("divMusic")
+//   divMusic.appendChild(music);
+// }
 
-music()
+// music()

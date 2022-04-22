@@ -1,0 +1,67 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #020303;
+}
+
+header img {
+  height: 100%;
+  max-width: 25rem;
+  flex: 1;
+  height: 50px; 
+  width: 25rem;
+}
+
+#music {
+  max-width:250px; 
+  height: 30px; 
+  margin-left: auto;
+}
+
+h1 {
+  text-align: center; 
+  font-size: 2.5rem; 
+  color: gold; 
+  margin-bottom: 20px;
+}
+
+h3 {
+  text-align: center; 
+  font-size: 1.5rem; 
+  color: rgb(27, 27, 27); 
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: justify; 
+  font-size: 1rem; 
+  color: rgb(27, 27, 27); 
+  width: 75rem;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.container {
+  padding-top: 20px; 
+  margin-top: 0px;
+  max-width: 550px;
+  margin: auto;
+}
+.container img {
+  border-radius: 30px;
+  margin: auto;
+}
+
+@media(max-width:500px) {
+  h1, h3 {
+    font-size: 1.5rem;
+    padding: 0 20px;
+  }
+
+  p {
+    font-size: .8rem;
+    max-width: 250px;
+  }
+}
+
+

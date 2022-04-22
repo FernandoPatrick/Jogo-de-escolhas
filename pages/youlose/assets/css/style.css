@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  padding: 10px;
+}
+
+#music {
+  max-width:250px; 
+  height: 30px; 
+  margin-left: auto;
+}
+
+h1 {
+  font-family: 'Creepster', cursive;
+  text-align: center;
+  color: brown;
+  font-size: 5rem;
+  margin-top: 50px;
+  letter-spacing: 3px;
+}
+
+@media(max-width:500px) {
+  html {
+   font-size: 13px;
+ }
+ header {
+   font-size: 1.2rem;
+ }
+ h1 {
+   font-size: 4rem;
+ }
+}

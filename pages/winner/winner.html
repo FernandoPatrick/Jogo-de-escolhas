@@ -5,27 +5,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="img/favicon.png">
+  <link rel="shortcut icon" href="./assets/img/favicon.png">
   <link rel="stylesheet" href="../resets/reset.css">
-  <link rel="stylesheet" href="./winner.css">
+  <link rel="stylesheet" href="./assets/css/winner.css">
   <title>Winner</title>
 </head>
 
 <body>
-  <header style="background-color: #020303;">
-    <span class="span-header"><img src="img/cd0a3d16394ae51de5c42b18ae51e7328865241er1-640-318_hq.gif" alt=""></span>
+  <header>
+    <img src="./assets/img/cd0a3d16394ae51de5c42b18ae51e7328865241er1-640-318_hq.gif" alt="">
+    <audio id="music" controls loop="true" autoplay="true" preload="auto"
+      src="./assets/audio/errodoWindows.mp3"></audio>
   </header>
   <div class="container">
-    <img class="images" src="img/winner_pubg-removebg-preview.png" alt="">
+    <img class="images" src="./assets/img/winner_pubg-removebg-preview.png" alt="">
   </div>
-  <h1 style="text-align: center; font-size: 2.5rem; color: gold; margin-bottom: 20px;">Você prendeu o Assassino!</h1>
+  <h1>Muito bem detetive você desvendou esse caso!</h1>
+
+  <h3>Ao prender os Assassinos eles confessaram o crime:</h3>
+  <p>
+    O Plano era dar um susto em Clotilde. Margareth e Thiago iriam segurá-la enquanto Ramon iria ameaçá-la com o
+    tesourão, para que ela não incomodasse e tratasse melhor a visinhança, porém Clotilde reagiu e conseguiu soltar uma
+    das mãos, fazendo com que Ramon cortasse a mão de Thiago que ao tentar prende-lá esbarrou a mão ensanguentava na
+    blusa de Margareth. Clotilde com uma das mãos livres conseguiu puxar a máscara de Ramon que acabou sendo exposto e
+    decidiu então matá-la, pois, ela chamaria a polícia e seriam presos.
+  </p>
 
   <div class="button-interrogacao">
     <button onclick="comemorar()" class="btn-grad">
       &lt; comemorar &gt;</button>
   </div>
   <div class="container">
-    <img class="images" id="imgwinner" src="./img/IMG1.png" style="max-width: 800px; border-radius: 20px;" alt="">
+    <img class="images" id="imgwinner" src="./assets/img/IMG1.png" alt="">
   </div>
   <div class="button-interrogacao">
     <a href="../../index.html"><button class="btn-grad">
@@ -36,5 +47,5 @@
   <script src="../resets/jquery-3.6.0.min.js"></script>
   <script src="../resets/reset.js">
   </script>
-  <script src="./winner.js"></script>
+  <script src="./assets/js/winner.js"></script>
 </body>

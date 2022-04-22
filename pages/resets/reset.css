@@ -37,7 +37,6 @@ header {
 
 .button-interrogacao a {
   text-decoration: none;
-  content: initial;
 }
 
 
@@ -52,7 +51,7 @@ header {
    border-radius: 10px;
    font-family: 'Poppins', sans-serif;
    font-weight: 400;
-   font-size: 1rem;
+   font-size: .9rem;
    border: none;
    font-family: 'Poppins', sans-serif;
 
@@ -67,29 +66,38 @@ header {
  }
 
  .container {
-   margin: 30px 10px;
+   margin: 30px auto;
    padding: 20px;
    display: flex;
    justify-content: center;
+   align-items: center;
+   gap: 10px;
+   flex-wrap: wrap;
+   max-width: 100%;
  }
 
- .container .images {
+ .container img {
    object-fit: contain;
-   width: 100%;
+   max-width: 25rem;
  }
 
  @media(max-width:500px) {
+   html {
+    font-size: 18px;
+  }
    .container {
      margin: 10px;
-     padding: 5px;
+     padding: 10px;
    }
-   html {
-    font-size: 14px;
+   .container img {
+    object-fit: contain;
+    max-width: 15rem;
+  }
+  .btn-grad {
+    width: 200px;
+    padding: 10px 10px;
   }
  }
 
- @media(max-width:500px) {
-   
- }
 
 

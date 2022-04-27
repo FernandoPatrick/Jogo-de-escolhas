@@ -1,9 +1,8 @@
 # Projeto final do Módulo 1: Jogo Investigativo de escolhas. 
 
 <h2>Assassinato na rua 13</h2>
-  <p>Projeto de encerramento do módulo 1, onde o objetivo foi criar um jogo de escolhas com o propósito de praticar o que aprendemos durante as aulas ministradas pelo facilitador Jarom Aidukaits .<br>
-  O tema escolhido pelo meu grupo foi "Investigação", criamos uma história para cada um dos 3 personagens (Margareth, Ramon e Thiago), com depoimentos diferentes onde o detetive que é o jogador,<br>
-  tem que interrogar os suspeitos e prender o assassino.<br>
+  <p>Projeto de encerramento do módulo 1, onde o objetivo foi criar um jogo de escolhas com o propósito de praticar o que aprendemos durante o módulo 1.<br>
+  O tema escolhido pelo meu grupo foi "Investigação", criamos uma história para cada um dos 3 personagens (Margareth, Ramon e Thiago), com depoimentos diferentes onde   o detetive que é o jogador, tem que interrogar os suspeitos e prender o assassino.<br><br>
 
 ![image](https://user-images.githubusercontent.com/78447989/165630315-c000b6db-e830-4a56-9773-c15550a94c15.png)
 

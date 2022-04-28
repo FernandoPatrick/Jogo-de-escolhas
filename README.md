@@ -12,6 +12,7 @@
   - [x] CSS3
   - [x] JavaScript
   - [x] Git
+  - [x] jQuery
 
 <h2 id="habilidades">Habilidades Adquiridas 📝</h2>
 
